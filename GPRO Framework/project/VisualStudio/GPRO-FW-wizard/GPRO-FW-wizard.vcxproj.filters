@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\source\GPRO-FW-wizard\Foo.c">
+    <ClCompile Include="..\..\..\source\GPRO-FW-wizard\Foo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="movedSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\GPRO-FW-wizard\headFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
